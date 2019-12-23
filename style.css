@@ -1,0 +1,140 @@
+*{
+    margin-top: 0;
+    padding: 0;
+}
+ html,body{
+    background: rgb(61,79,93);
+    width: 100vw;
+    
+ }
+
+aside{
+    width: 25%;
+    float: left;
+    position: absolute;
+    top: 200px;
+}
+h3{
+    color: white;
+    float: right;
+    margin-right: 30px;
+}
+
+aside p{
+    color: skyblue;
+    clear: both;
+    position: relative;
+    bottom: 20px;
+    right: 30px;
+    text-align: right;
+}
+
+
+
+.button{
+    color: white;
+    border: skyblue 1px solid;
+    padding: 5px;
+    text-decoration: none;
+    position: relative;
+    bottom: 4px;
+    left:4px;
+    clear: both;
+    margin:0 5px;
+
+}
+main{
+    background-color: white;
+    float: right;
+    width: 75%;
+    
+
+
+}
+.container{
+    margin-top: 6%;
+    margin-left: 5%;
+    height: 100%;
+}
+
+.pinned{
+    border-bottom: gray 1px solid;
+    padding-bottom: 4px;
+    display: block;
+    width: 90%;
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.blogTitle{
+
+    float: left;
+}
+
+.avatar{
+  float: right;
+  width: 5%;
+}
+
+.by{
+    clear: both;
+    display: block;
+}
+
+.byWho{
+    text-decoration: none;
+}
+
+.cssLogo{
+    border: green 1px solid;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.jsLogo{
+    border: blue 1px solid;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+#jsLogo2{
+    border: rgb(230, 78, 103) 1px solid;
+    background-color: rgb(230, 78, 103);
+    color: white;
+    padding: 5px;
+}
+
+#notVisited{
+    border: rgb(112, 110, 110) 1px solid;
+    background-color: rgb(112, 110, 110);
+    color: white;
+    padding: 5px;
+}
+
+#p1{
+    width: 30%; 
+}
+
+#p2{
+    width: 30%;
+    margin-left: 2.5%;
+}
+
+#footer p{
+    float: left;
+}
+#footer {
+    position: absolute;
+    left: 50%;
+}
+
+table{
+    margin-top: 10%;
+    margin-left:auto;margin-right:auto;
+}
